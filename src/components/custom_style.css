@@ -1,0 +1,61 @@
+
+#blog .blog-post {
+    border: 1px solid #eee;
+    padding: 15px;
+    background: #fff;
+  }
+  
+  .card_custom {
+    height: 500px;
+    margin: 10px;
+    padding: 2px;
+  }
+  
+  .animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  #blog .blog-post.blog-large .entry-title {
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 1;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    line-height: 26px;
+  }
+  
+  #portfolio .portfolio-item .portfolio-item-inner .portfolio-info h2, h3 {
+    font-size: 20px;
+    line-height: 1;
+    margin: 0;
+  }
+  
+  .section-header .section-title, body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif !important;
+  }
+  
+  h3 {
+    display: flex;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+  
