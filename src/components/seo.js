@@ -25,9 +25,8 @@ import { useStaticQuery, graphql } from "gatsby"
       }
     `
   )
-
-  const metaDescription = description || site.siteMetadata.description
-
+   const metaDescription = description || site.siteMetadata.description
+  //const metaDescription = description
   return (
     <Helmet
       htmlAttributes={{
@@ -83,7 +82,9 @@ import { useStaticQuery, graphql } from "gatsby"
             : []
         )
         .concat(meta)}
-    />
+    >
+    <link rel="canonical" href={window.location.href} />
+    </Helmet>
   )
 }
 

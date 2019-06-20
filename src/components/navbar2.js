@@ -34,10 +34,10 @@ class Navi extends React.Component {
             <a href="https://www.frugaltesting.com/contact">Contact Us</a>
           </div>
         </li>
-        <li className="scroll nav-item"><a href="/login" className="nav-link">Login</a>
+        <li className="scroll nav-item"><a href="https://www.frugaltesting.com/login" className="nav-link">Login</a>
         </li>
         <li className="scroll nav-item">
-          <a href="/contact" className="nav-link">
+          <a href="https://www.frugaltesting.com/contact" className="nav-link">
             <span style={{background: '#45aed6', padding: '10px', color: 'white', borderRadius: '10px'}}>Request A Demo</span>
           </a>
         </li>

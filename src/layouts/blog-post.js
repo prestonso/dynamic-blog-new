@@ -16,10 +16,10 @@ const BlogPost = ({ data, pageContext }) => {
   const { markdownRemark } = data
   const { prev, next } = pageContext
   const imageSource = markdownRemark.frontmatter.image.childImageSharp.fluid.src
-
+  const desc = markdownRemark.frontmatter.description
   return (
     <Layout>
-      <Seo title={markdownRemark.frontmatter.title} image={imageSource}/>
+      <Seo title={markdownRemark.frontmatter.title} image={imageSource} description={desc}/>
 
       <div className="container" style={{paddingTop:"70px"}}>
       
@@ -124,6 +124,7 @@ export const query = graphql`
         date(formatString: "MMMM DD, YYYY")
         author
         category
+        description
         image {
           childImageSharp {
             fluid {

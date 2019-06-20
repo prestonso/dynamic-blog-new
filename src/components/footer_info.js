@@ -9,28 +9,28 @@ class FooterInfo extends Component {
                         <div className="col-lg-3  col-md-3 col-sm-3 col-xs-6">
                         <h3 style={{color: 'white', marginBottom: '10px'}}>PRODUCT</h3>
                         <ul>
-                            <li style={{display: 'flex'}}> <a href="/features/features">Features</a> </li>
-                            <li style={{display: 'flex'}}> <a href="/pricing">Pricing</a> </li>
+                          <li style={{display: 'flex'}}> <a href="https://frugaltesting.com/features/features">Features</a> </li>
+                            <li style={{display: 'flex'}}> <a href="https://frugaltesting.com/pricing">Pricing</a> </li>
                         </ul>
                         </div>
                         <div className="col-lg-3  col-md-3 col-sm-3 col-xs-6">
                         <h3 style={{color: 'white', marginBottom: '10px'}}>SERVICES</h3>
                         <ul>
-                            <li style={{display: 'flex'}}> <a href="/services">Performance Testing</a> </li>
+                            <li style={{display: 'flex'}}> <a href="https://frugaltesting.com/services">Performance Testing</a> </li>
                         </ul>
                         </div>
                         <div className="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                         <h3 style={{color: 'white', marginBottom: '10px'}}> ABOUT </h3>
                         <ul>
-                            <li style={{display: 'flex'}}> <a href="/contact"> Contact Us </a> </li>
-                            <li style={{display: 'flex'}}> <a href="/careers">Careers</a> </li>
+                            <li style={{display: 'flex'}}> <a href="https://frugaltesting.com/contact"> Contact Us </a> </li>
+                            <li style={{display: 'flex'}}> <a href="https://frugaltesting.com/careers">Careers</a> </li>
                         </ul>
                         </div>
                         <div className="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                         <h3 style={{color: 'white', marginBottom: '10px'}}> COMPANY </h3>
                         <ul>
-                            <li style={{display: 'flex'}}> <a href="/privacy">Privacy Policy </a> </li>
-                            <li style={{display: 'flex'}}> <a href="/terms">Terms of Service </a> </li>
+                            <li style={{display: 'flex'}}> <a href="https://frugaltesting.com/privacy">Privacy Policy </a> </li>
+                            <li style={{display: 'flex'}}> <a href="https://frugaltesting.com/terms">Terms of Service </a> </li>
                         </ul>
                         </div>
                     </div>

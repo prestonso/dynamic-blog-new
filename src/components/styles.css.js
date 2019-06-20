@@ -85,6 +85,7 @@ export const Pagination = styled.ul`
   display: flex;
   justify-content: center;
   list-style: none;
+  padding-top: 50px
 `
 
 export const PaginationItem = styled.li`
