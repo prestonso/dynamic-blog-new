@@ -19,7 +19,7 @@ const BlogPost = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <Seo title={markdownRemark.frontmatter.title}/>
+      <Seo title={markdownRemark.frontmatter.title} image={imageSource}/>
 
       <div className="container" style={{paddingTop:"70px"}}>
       
