@@ -4,7 +4,7 @@ date: 2019-02-10
 author: none.com
 featured: false
 image: ./ip_spoofing.jpg
-description: "Johannes Gensfleisch zur Laden zum Gutenberg (c. 1398 – 1468) was a German blacksmith, goldsmith, printer."
+description: "Want to load your Application logs with multiple ips during the load test? Check it out now"
 category:
   - Movable Type
   - Johannes Gutenberg

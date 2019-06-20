@@ -4,7 +4,7 @@ date: 2019-06-19
 author: none.com
 featured: true
 image: ./indexing-in-dbms-main.jpg
-description: "Johannes Gensfleisch zur Laden zum Gutenberg (c. 1398 – 1468) was a German blacksmith, goldsmith, printer."
+description: "What is indexing in DBMS? what are the ways to perform indexing?"
 
 category:
   - Movable Type

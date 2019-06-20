@@ -4,7 +4,7 @@ date: 2019-01-10
 author: none.com
 featured: false
 image: ./regular-expression-extractor-jmeter.png
-description: "Johannes Gensfleisch zur Laden zum Gutenberg (c. 1398 – 1468) was a German blacksmith, goldsmith, printer, ."
+description: "Learn how can you make your performance test scripts more dynamic with JMeter"
 
 category:
   - JMeter
@@ -27,8 +27,8 @@ Choose a **request** in a Test Plan from which you want to extract the value and
 *   **Reference Name:** The name of the variable in which to store the extracted value.
 *   **Regular Expression:** Expression for parse the response data and save it in the Variable as **Reference Name** .
 *   **Template:** Used to create a string from the matches found. The syntax to refer to a group is:  
-      -'$1$' to refer to group 1  
-      -'$2$' to refer to group 2  
+      -'$1$' to refer to group 1
+      -'$2$' to refer to group 2
       -'$0$'refers to whatever the entire expression matches
 *   **Match No.:** Can specify which value should be used from the character sequence.  
       -Zero indicates, to choose a match at random.  

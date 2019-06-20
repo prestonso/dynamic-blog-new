@@ -4,6 +4,7 @@ date: 2019-10-10
 author: none.com
 featured: false
 image: ./new_in_jmeter.png
+description: "Check out some of the improvements and additions in the new version of JMeter 5.0"
 category:
   - Movable Type
   - Johannes Gutenberg
