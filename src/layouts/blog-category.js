@@ -18,9 +18,9 @@ const BlogCategory = ({ data, pageContext }) => {
     <Layout>
       <Seo title={category} />
 
-      <Container>
+      <div className="container">
         <Row>
-          <Cell xs={12}>
+          <Cell>
             <S.HeaderSectionTitle>Categories:</S.HeaderSectionTitle>
             <S.HeaderSectionList>
               {allCategories.map(cat => (
@@ -39,7 +39,7 @@ const BlogCategory = ({ data, pageContext }) => {
           numPages={numPages}
           contextPage={`category/${kebabCase(category)}`}
         />
-      </Container>
+      </div>
     </Layout>
   )
 }

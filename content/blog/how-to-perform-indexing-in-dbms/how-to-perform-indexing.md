@@ -7,8 +7,8 @@ image: ./indexing-in-dbms-main.jpg
 description: "What is indexing in DBMS? what are the ways to perform indexing?"
 
 category:
-  - Movable Type
-  - Johannes Gutenberg
+  - Guide
+  - Best Practices
 ---
 
 

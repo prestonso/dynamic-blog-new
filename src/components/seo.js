@@ -83,7 +83,7 @@ import { useStaticQuery, graphql } from "gatsby"
         )
         .concat(meta)}
     >
-    <link rel="canonical" href={window.location.href} />
+    <link rel="canonical" href={typeof window !== 'undefined'?window.location.href:""} />
     </Helmet>
   )
 }

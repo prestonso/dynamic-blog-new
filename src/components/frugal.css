@@ -1,7 +1,5 @@
 @font-face {
     font-family: Averta;
-    /*src: url(/resources/fonts/Aller_Rg.eot);*/
-   /* src: url(/resources/fonts/Aller_Rg.eot) format('embedded-opentype'), url(/resources/fonts/Aller_Rg.woff2) format('woff2'), url(/resources/fonts/Aller_Rg.woff) format('woff'), url(/resources/fonts/Aller_Rg.ttf) format('truetype'), url(/resources/fonts/Aller_Rg.svg#Aller_Rg) format('svg')*/
 }
 
 @media only screen and (min-width:480px) and (max-width:767px) {
@@ -19,10 +17,7 @@
     html,
     section {
         overflow-x: hidden!important
-    }
-    #footer .row div:first-child {
-        /* display: none */
-    }
+    } 
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -153,8 +148,6 @@ h6 {
 
 @font-face {
     font-family: Averta;
-    /*src: url(/resources/fonts/Aller_Rg.eot);
-    src: url(/resources/fonts/Aller_Rg.eot) format('embedded-opentype'), url(/resources/fonts/Aller_Rg.woff2) format('woff2'), url(/resources/fonts/Aller_Rg.woff) format('woff'), url(/resources/fonts/Aller_Rg.ttf) format('truetype'), url(/resources/fonts/Aller_Rg.svg#Aller_Rg) format('svg')*/
 }
 
 body {
@@ -200,18 +193,7 @@ hr {
     border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #fff
 }
-
-.gradiant {
-    /*background-image: -moz-linear-gradient(90deg, #2caab3 0, #2c8cb3 100%);
-    background-image: -webkit-linear-gradient(90deg, #2caab3 0, #2c8cb3 100%);
-    background-image: -ms-linear-gradient(90deg, #2caab3 0, #2c8cb3 100%)*/
-}
-
-.gradiant-horizontal {
-    /*background-image: -moz-linear-gradient(4deg, #2caab3 0, #2c8cb3 100%);
-    background-image: -webkit-linear-gradient(4deg, #2caab3 0, #2c8cb3 100%);
-    background-image: -ms-linear-gradient(4deg, #2caab3 0, #2c8cb3 100%)*/
-}
+ 
 
 .section-header {
     margin-bottom: 50px
@@ -239,11 +221,7 @@ hr {
 	
 
   }
-
-.section-header .section-title:after {
-    
-}
-
+ 
 .btn {
     border-width: 0 0 3px;
     border-radius: 3px
@@ -1100,13 +1078,7 @@ h3 {
     color: #fff;
     border: 0
 }
-
-#pricing ul.pricing.featured li.plan-header {
-    /*background-image: -moz-linear-gradient(90deg, #2caab3 0, #2c8cb3 100%);
-    background-image: -webkit-linear-gradient(90deg, #2caab3 0, #2c8cb3 100%);
-    background-image: -ms-linear-gradient(90deg, #2caab3 0, #2c8cb3 100%)*/
-}
-
+ 
 #get-in-touch h1,
 #get-in-touch h2,
 #pricing ul.pricing.featured li.plan-header .plan-name {
@@ -1656,10 +1628,7 @@ span.social>a>img:hover {
     html,
     section {
         overflow-x: hidden!important
-    }
-    #footer .row div:first-child {
-        /* display: none */
-    }
+    } 
     iframe {
         height: 250px!important
     }
@@ -1680,10 +1649,7 @@ span.social>a>img:hover {
     html,
     section {
         overflow-x: hidden!important
-    }
-    #footer .row div:first-child {
-        /* display: none */
-    }
+    } 
     .sec-title {
         font-size: 30px!important;
         font-weight: 700!important
@@ -1790,7 +1756,6 @@ span.social>a>img:hover {
         background-color: #e7e7e7!important;
         color: #555;
         border-bottom: none!important;
-        <!-- line-height: 10px
     }
     .navbar-default {
         background: #f8f8f8!important

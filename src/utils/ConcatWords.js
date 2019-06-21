@@ -12,8 +12,7 @@ export default ({ arrCount, index, children }) => {
   if (index + 1 === arrCount) {
     return (
       <>
-        {" "}
-        {", "} {children}
+        {""}{","} {children}
       </>
     )
   }

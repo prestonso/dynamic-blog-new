@@ -3,7 +3,7 @@ import { Redirect } from "@reach/router"
 
 //importing bootstrap and frugal css
 
-import 'bootstrap/dist/js/bootstrap.js'
+// import 'bootstrap/dist/js/bootstrap.js'
 import 'bootstrap/dist/css/bootstrap.css'
 import '../components/frugal.css'
 import '../components/frugal2.css'

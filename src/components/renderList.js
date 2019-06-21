@@ -75,12 +75,12 @@ const renderList = ({ node }) => {
                         <div className="entry-date">{formatDate(node.frontmatter.date)}</div>
                         <h3 className="entry-title"><Link to={node.fields.slug}>{node.frontmatter.title}</Link></h3>
                     </header>
-                     <div className="entry-content" style={{overflow:"hidden",textOverflow:"ellipsis",maxHeight:"70px"}}>
+                     <div className="entry-content" style={{overflow:"hidden",textOverflow:"ellipsis",maxHeight:""}}>
                         {/* <p > */}
                         {node.frontmatter.description}
                         {/* </p> */}
                     </div> 
-                    <footer className="entry-meta" style={{overflow:"hidden",textOverflow:"ellipsis",maxHeight:"70px"}}>
+                    <footer className="entry-meta" style={{overflow:"hidden",textOverflow:"ellipsis",maxHeight:""}}>
                     {node.frontmatter.category.map((cat, index, arr) => (
                         <ConcatWords arrCount={arr.length} index={index} key={cat}>
                         <Link to={`/blog/category/${kebabCase(cat)}`}>{cat}</Link>

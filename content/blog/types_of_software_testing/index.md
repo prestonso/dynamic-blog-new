@@ -7,8 +7,8 @@ image: ./software_testing_types.png
 description: "Johannes Gensfleisch zur Laden zum Gutenberg (c. 1398 – 1468) was a German blacksmith, goldsmith, printer,"
 
 category:
-  - Movable Type
-  - Johannes Gutenberg
+  - Guide
+  - Performance testing
 ---
 
 

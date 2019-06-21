@@ -6,8 +6,9 @@ featured: false
 image: ./ip_spoofing.jpg
 description: "Want to load your Application logs with multiple ips during the load test? Check it out now"
 category:
-  - Movable Type
-  - Johannes Gutenberg
+  - Best practices
+  - Load testing
+  - JMeter
 ---
 
 To emulate real time behaviour while doing on demand performance
