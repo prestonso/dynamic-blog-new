@@ -1,6 +1,6 @@
 ---
 title: 'IP Spoofing'
-date: 2019-02-10
+date: 2018-09-09
 author: none.com
 featured: false
 image: ./ip_spoofing.jpg

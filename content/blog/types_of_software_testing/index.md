@@ -1,6 +1,6 @@
 ---
 title: 'Types of software testing'
-date: 2018-02-12
+date: 2018-05-23
 author: touropia.com
 featured: false
 image: ./software_testing_types.png

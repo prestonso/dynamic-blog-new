@@ -1,6 +1,6 @@
 ---
 title: JMeter-Regular Expression Extractor
-date: 2019-01-10
+date: 2018-10-24
 author: none.com
 featured: false
 image: ./regular-expression-extractor-jmeter.png
