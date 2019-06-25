@@ -1,10 +1,11 @@
 module.exports = {
+  // pathPrefix: `/newBlog`,
   siteMetadata: {
-    title: "My personal blog",
+    title: "Frugal Testing Blogs",
     titleTemplate: "%s · Blog",
-    description: "Nostrud est duis proident ut dolore ipsum tempor Lorem.",
-    author: "danilowoz",
-    twitterUsername: "@danilowoz",
+    description: "",
+    author: "Frugal Admin",
+    twitterUsername: "@frugaltesting",
   },
   plugins: [
     {
