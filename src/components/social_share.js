@@ -58,22 +58,23 @@ export default SocialShare
 const linkedinsharer = () => {
     let x = escape(typeof window !== 'undefined'?window.location.href:"")
     let y = x.slice(8)
-    return `https://www.linkedin.com/shareArticle?mini=true&url=https%3A"${y}`
+    return `https://www.linkedin.com/shareArticle?mini=true&url=https%3A/${y}`
   }
   const fbsharer = () => {
     return `https://www.facebook.com/sharer/sharer.php?u=${escape(typeof window !== 'undefined'?window.location.href:""
     )}&t=${typeof document !== 'undefined'?document.title:""}`
   }
   const whatsappshare = () => {
-    return `https://api.whatsapp.com/send?text="${escape(typeof window !== 'undefined'?window.location.href:"")}`
+    let k = escape(typeof window !== 'undefined'?window.location.href:"")
+    return `https://api.whatsapp.com/send?text=${k}`
   }
   const gmailsharer = () => {
     let x = escape(typeof window !== 'undefined'?window.location.href:"")
     let y = typeof document !== 'undefined'?document.title:""
-    return `https://mail.google.com/mail/?view=cm&fs=1&su="${y}"&tf=1&body="${x}`
+    return `https://mail.google.com/mail/?view=cm&fs=1&su=${y}&tf=1&body=${x}`
   }
   const twittersharer = () => {
     let x = escape(typeof window !== 'undefined'?window.location.href:"")
     let y = x.slice(8)
-    return `https://twitter.com/home?status=https%3A"${y}`
+    return `https://twitter.com/home?status=https%3A/${y}`
   }

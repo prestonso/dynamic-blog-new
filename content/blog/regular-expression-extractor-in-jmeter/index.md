@@ -71,4 +71,4 @@ The special characters used for regular expressions are:
 
 <img class="main-img img-responsive" src="https://www.frugaltesting.com/resources/images/jmeter-regular-expression-extractor/regex-tester.png">
 
-This is all about the Regular Expression Extractor in JMeter and its usage. Read more blogs related to JMeter and various aspects of testing [here](blog?page=1).
+This is all about the Regular Expression Extractor in JMeter and its usage. Read more blogs related to JMeter and various aspects of testing [here](../../../../../blog).

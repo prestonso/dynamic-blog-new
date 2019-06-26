@@ -1,7 +1,7 @@
 ---
 title: 'JMeter - How to build a Realistic Test Plan?'
 date: 2018-07-11
-author: touropia.com
+author: frugaltesting.com
 featured: false
 image: ./jmeter-how-to-build-a-realistic-test-plan.jpg
 description: "Make your performance test scripts more realistic to achieve your performance goals. "
@@ -16,19 +16,19 @@ category:
 
 
 <div class="entry-content">
-<p class="blog-content">
+<p >
 The Proxy Server allows JMeter to record all the actions while user browses web/mobile application.
 The recorded actions are stored under the test plan in JMeter.
 </p>
-<p class="blog-content">
+<p >
 JMeter script should be prepared in a realistic way i.e. by adding delay between each user action which we call it as Think time. Think time allows the virtual users/threads to pause between the business flows, while moving from one to another transaction.
 As in real scenario users will never login, search, place order, payment and logout within few seconds as the user needs some time to think and do next action.
 </p>
-<p class="blog-content">
+<p >
 So including a Think time in the test plan makes the performance test more realistic as it represents user's actual behaviour in the system.
 </p>
 <h4 class="blog-subtitle">Following the steps for a Realistic test plan:</h4>
-<ol class="blog-content">
+<ol >
 <li>Create a new test-plan and switch to WorkBench and add HTTP(s) Test Script Recorder.</li>
 <li> Now, add Constant Timer to HTTP(S) Test Script Recorder and set Thread Delay (in milliseconds) in Constant Timer as . It tells the proxy server to record your delay time while you browse rather than adding a constant time.
 <div style="width:93%; margin-top:20px; margin-bottom:20px;padding:20px; box-shadow:0 0 10px rgba(0,0,0,0.1)">
@@ -43,7 +43,7 @@ So including a Think time in the test plan makes the performance test more reali
 </li>
 </ol>
 <h4 class="blog-subtitle">Note:</h4>
-<p class="blog-content">We need to remove the first sampler's generated timer manually, since the first sampler usually does not need one.</p>
-<p class="blog-content">Thus timer recorded the user think time in realistic scenario through Proxy Server.</p>
-<p class="blog-content">Depending upon the application context, the think time would vary. It's not advisable to have the default think time for all applications under test.</p>
+<p >We need to remove the first sampler's generated timer manually, since the first sampler usually does not need one.</p>
+<p >Thus timer recorded the user think time in realistic scenario through Proxy Server.</p>
+<p >Depending upon the application context, the think time would vary. It's not advisable to have the default think time for all applications under test.</p>
 </div>

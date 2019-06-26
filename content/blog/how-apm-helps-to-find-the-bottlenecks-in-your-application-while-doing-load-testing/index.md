@@ -1,7 +1,10 @@
 ---
+<<<<<<< HEAD
 title: 'How APM helps to find the bottlenecks in Application on Load Testing'
+=======
+>>>>>>> 6dda810212e0edce5b50648a508d621d082e8b37
 date: 2017-08-11
-author: touropia.com
+author: frugaltesting.com
 featured: false
 image: ./how-apm-helps-to-find-the-bottlenecks-in-your-application-while-doing-load-testing.png
 description: "To find how the system is behaving under certain load conditions, we need an APM..." 

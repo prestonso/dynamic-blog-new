@@ -9,16 +9,15 @@ description: "Know how to handle the handshake exception while executing your JM
 category:
   - Load Testing
   - Performance testing
-  - Best Practices
   - JMeter
 ---
 
 <div class="entry-content">
-<p class="blog-content">If you get below error as response data for a request while running the script, here is the solution.</p>
+<p >If you get below error as response data for a request while running the script, here is the solution.</p>
 <div style="width:94%; margin-top:20px; margin-bottom:20px;padding:20px; box-shadow:0 0 10px rgba(0,0,0,0.1)">
 <img class="main-img img-responsive" style="" src="./error-response-data-for-request.png" alt="ssl handshake exception in jmeter">
 </div>
-<p class="blog-content">In HTTP Request sampler, change the field 'Implementation' to HttpClient4 to solve this exception.</p>
+<p >In HTTP Request sampler, change the field 'Implementation' to HttpClient4 to solve this exception.</p>
 <div style="width:89%; margin-top:20px; margin-bottom:20px;padding:20px; box-shadow:0 0 10px rgba(0,0,0,0.1)">
 <img class="main-img img-responsive" style="" src="./sampler-change-the-field-Implementation.png" alt="ssl handshake exception in jmeter">
 </div>

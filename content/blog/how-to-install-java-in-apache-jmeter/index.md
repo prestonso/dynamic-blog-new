@@ -16,7 +16,7 @@ category:
 
 
 <div class="entry-content">
-<p class="blog-content">
+<p >
 As <a href="introduction-to-apache-jmeter-aquick-guide">Apache JMeter</a> is a pure JAVA based open source tool, we need a compatible Java version to run Apache JMeter. So let's start with how to install Java.
 Check the below table which states which Java version has to be downloaded to make both JMeter and Java compatible.
 </p>
@@ -63,7 +63,7 @@ Check the below table which states which Java version has to be downloaded to ma
 </tbody>
 </table>
 </div>
-<p class="blog-content">If you are using latest version of JMeter we can see it requires Java 8+. So let's see how to install Java 8.<br><br>
+<p >If you are using latest version of JMeter we can see it requires Java 8+. So let's see how to install Java 8.<br><br>
 To download the Java 8 go to the official <a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html">site </a>of oracle, under Java Platform, Standard Edition you can find the latest version of Java which is of Java SE 8u191/ Java SE 8u192.
 </p>
 <center>
@@ -71,14 +71,14 @@ To download the Java 8 go to the official <a href="https://www.oracle.com/techne
 <img class="main-img img-responsive" src="./java-site.png" alt="How to Install Java for Apache JMeter">
 </div>
 </center>
-<p class="blog-content">By clicking on the link you will be redirecting to the <b>Java SE Development Kit 8 Downloads</b>, accept the license agreement and click on the <b>Windows x 84/ 64 </b>accordingly.
+<p >By clicking on the link you will be redirecting to the <b>Java SE Development Kit 8 Downloads</b>, accept the license agreement and click on the <b>Windows x 84/ 64 </b>accordingly.
 </p>
 <center>
 <div style="width:88%; margin-top:20px; margin-bottom:20px;padding:20px; box-shadow:0 0 10px rgba(0,0,0,0.1)">
 <img class="main-img img-responsive" src="./java-agree-down.png" alt="How to Install Java for Apache JMeter">
 </div>
 </center>
-<p class="blog-content">You can find .exe find being downloaded. Once the download was done just install the application.
+<p >You can find .exe find being downloaded. Once the download was done just install the application.
 You can find the Java was installed was installed successfully.
 </p>
 <center>
@@ -86,21 +86,21 @@ You can find the Java was installed was installed successfully.
 <img class="main-img img-responsive" src="./java-installed.png" alt="How to Install Java for Apache JMeter">
 </div>
 </center>
-<p class="blog-content">Now we need to instruct our windows OS to pick this version of Java, so we need to setup the environmental variables by navigating through <b>Control Panel</b> &gt; <b>System</b> &gt; <b>Advanced system settings</b>.
+<p >Now we need to instruct our windows OS to pick this version of Java, so we need to setup the environmental variables by navigating through <b>Control Panel</b> &gt; <b>System</b> &gt; <b>Advanced system settings</b>.
 </p>
 <center>
 <div style="width:88%; margin-top:20px; margin-bottom:20px;padding:20px; box-shadow:0 0 10px rgba(0,0,0,0.1)">
 <img class="main-img img-responsive" src="./java-syatem-adv.png" alt="How to Install Java for Apache JMeter">
 </div>
 </center>
-<p class="blog-content">Now switch to Advanced tab &gt; Environment Variables.
+<p >Now switch to Advanced tab &gt; Environment Variables.
 </p>
 <center>
 <div style="width:88%; margin-top:20px; margin-bottom:20px;padding:20px; box-shadow:0 0 10px rgba(0,0,0,0.1)">
 <img class="main-img img-responsive" src="./java-env-var.png" alt="How to Install Java for Apache JMeter">
 </div>
 </center>
-<p class="blog-content">Under User Variables, Click on <b>New</b> and add the following <b>Variable name</b> and <b>Variable value</b>.
+<p >Under User Variables, Click on <b>New</b> and add the following <b>Variable name</b> and <b>Variable value</b>.
 </p>
 <div class="table-responsive" style="width:100%; padding:20px 20px;">
 <table class="table table-bordered table-hover table-sm" style="color:black !important">
@@ -138,7 +138,7 @@ You can find the Java was installed was installed successfully.
 <img class="main-img img-responsive" src="./java-user-var.png" alt="How to Install Java for Apache JMeter">
 </div>
 </center>
-<p class="blog-content">
+<p >
 Make sure that the longish your-unique-entries do not contain any other references to another Java installation folder.
 Note that these environment variables are derived from the `root` environment variable JAVA_HOME. This makes it easy to update environment variables when updating the JDK.
 And don't delete any existing entries.

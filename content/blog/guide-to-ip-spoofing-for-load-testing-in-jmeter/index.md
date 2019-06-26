@@ -28,12 +28,12 @@ Protocol Version 4**-\> **Properties**
 And uncheck **Obtain an IP address automatically**and set the IP
 address, netmask, gateway and DNS servers manually (check the IP's are
 available under the same subnet).
-<h2 style="color:yellow"><a href="http://www.google.com">this is heading 2</a></h2>
+
 ![FrugalTesting blog on Jmeter ip spoofing for loadtesting](/network-ipv4-advanced.png)
 
 After adding the ip addresses go to advanced and add more ips within the
-range of the subnet mask and say OK.\
-\
+range of the subnet mask and say OK.
+
  As the IP addresses for networks on the Internet are allocated by the
 InterNIC. If you have an Internet connection then you would be allocated
 a network address by the agency that registered you, like the InterNIC.

@@ -16,12 +16,12 @@ category:
 
 
 <div class="entry-content">
-<p class="blog-content">
-Generally when we want to load test a website, we want to select the <b>'Retrieve Embedded / resources' </b> option with 'Parallel Download' as a real user scenario in <a href="introduction-to-apache-jmeter-aquick-guide">Jmeter</a>.</p>
-<p class="blog-content">But to visualize the embedded / resources like JS, CSS, images etc. in JMeter, we only have <b>'View Result Tree' </b> listener which we can't use for huge load tests.</p>
-<p class="blog-content">So, to get the various performance attributes of the child elements like sample times and response codes, save the jtl file in XML format as follows:
+<p >
+Generally when we want to load test a website, we want to select the <b>'Retrieve Embedded / resources' </b> option with 'Parallel Download' as a real user scenario in <a href="../../../../2018/06/25/introduction-to-apache-jmeter-guide">Jmeter</a>.</p>
+<p >But to visualize the embedded / resources like JS, CSS, images etc. in JMeter, we only have <b>'View Result Tree' </b> listener which we can't use for huge load tests.</p>
+<p >So, to get the various performance attributes of the child elements like sample times and response codes, save the jtl file in XML format as follows:
 </p>
-<ul class="blog-content">
+<ul >
 <li>Go to jmeter.properties and set jmeter.save.saveservice.output_format=xml.</li>
 <li> Save it and Restart JMeter.
 <div style="width:94%; margin-top:20px; margin-bottom:20px;padding:20px; box-shadow:0 0 10px rgba(0,0,0,0.1)">
@@ -44,5 +44,5 @@ Generally when we want to load test a website, we want to select the <b>'Retriev
 </div>
 </li>
 </ul>
-<p class="blog-content">Know <a href="impact-Of-heavy-user-load-on-your-application-performances">how huge load on website can impact your application's performance here!</a></p>
+<p >Know <a href="../../../../2017/10/24/how-to-get-child-samples-when-embedded-resource-is-checked-in-jmeter">how huge load on website can impact your application's performance here!</a></p>
 </div>

@@ -16,7 +16,7 @@ category:
 
 
 <div class="entry-content">
-<p class="blog-content">
+<p >
 As JMeter has some limitations for generating requests from one single machine, we go for distributed testing to overcome it. In <b>distributed testing</b> we configure a Master machine and certain number of slave machines (and the no of slaves depends upon the load/users) to simulate load with more numbers of users. The master machine controls the test and slaves do the actual job.
 </p>
 <center>
@@ -24,10 +24,10 @@ As JMeter has some limitations for generating requests from one single machine, 
 <img class="main-img img-responsive" src="./distributed-load.png" alt="distributed load testing">
 </div>
 </center>
-<p class="blog-content">
+<p >
 Let's consider 4 machines which are setup on cloud with 8GB RAM configuration. One will be termed as Master and other 3 will act as slave machines.
 </p>
-<ul class="blog-content">
+<ul >
 <p> Now, steps to be done before starting the distributed testing through GUI:</p>
 <li>Ensure that the 'system firewall' is turned off </li>
 <li> Download latest and same version of Apache JMeter along with the supported version of Java.</li>
@@ -56,7 +56,7 @@ Let's consider 4 machines which are setup on cloud with 8GB RAM configuration. O
 <li>We will get the test results in Master-JMeter GUI itself.</li>
 
 <h4 class="blog-subtitle">To run the test through command line (NON-GUI MODE):</h4>
-<ol class="blog-content">
+<ol >
 <li>After setting up JMeter and turning off the system firewall.</li>
 <li>In slave machine go to CL (Command Line) and set the path to JMeter-bin and give the following command:<br>
 - jmeter-server.bat -Djava.rmi.server.hostname=54.215.185.156 (ip of slave machine) say enter we can see the end point to 54.215.185.156.
@@ -73,5 +73,5 @@ Let's consider 4 machines which are setup on cloud with 8GB RAM configuration. O
 </li>
 <li style="margin-top:20px;"> After the completion of test take the jtl file and browse it in JMeter GUI to get Aggregate Report or any other Graphs.</li>
 </ol></ul>
-<p class="blog-content">To know more about apache JMeter,<a href="introduction-to-apache-jmeter-aquick-guide"> read here</a>.</p>
+<p >To know more about apache JMeter,<a href="../../../../2018/06/25/introduction-to-apache-jmeter-guide"> read here</a>.</p>
 </div>

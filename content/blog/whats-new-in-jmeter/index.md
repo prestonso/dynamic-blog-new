@@ -1,7 +1,7 @@
 ---
 title: "What's new in Jmeter"
 date: 2019-10-23
-author: none.com
+author: frugaltesting.com
 featured: false
 image: ./new_in_jmeter.png
 description: "Check out some of the improvements and additions in the new version of JMeter 5.0"
@@ -27,20 +27,29 @@ Some of the new and noteworthy changes are.
     while reporting.
 -   A new element, Xpath2 Extractor, provides easier XML namespace
     handling, with up-to-date XPath syntax and better performance.
+    
     ![remote-host-and-rmi-configuration](/add-new-xpath.png)
+    
+    
 -   The Flow Control Action and Result Status Action Handler elements
     make it easier for loop breaking and loop switching to the next
     iteration.
 -   The Search feature has improved and now lets you iterate in the tree
     over search results and make necessary replacements through the
     Next/Previous/Replace/Replace/Find buttons.
+    
     ![remote-start](/search-feature.png)
+    
+    
 -   Now we can view the Response and Request headers separately in the
     View Result Tree Listener tab.
 -   Now, while recording, we can see a popup at the top for naming a
     transaction when we are navigating through the application.
 -   We can now restart JMeter from the File menu.
+
     ![starting-test-on-host](/restart-jmeter-from-file-menu.png)
+    
+    
 -   The HTML report now has a custom Graph section where we can
     customize metrics as JMeter variables through sample\_variables.
 -   A new function has been introduced, \_\_threadGroupName, which gets

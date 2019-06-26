@@ -30,7 +30,6 @@ records to get that file.
 
 ![indexing-in-dbms](./indexing-in-dbms-1.jpg "indexing-in-dbms")
 
-\
 
 Thus, to make this search faster, we can decrease the access time to
 search a record we use indexing.\
@@ -66,7 +65,6 @@ mysql indexes are stored as B-tree where all the data are in leaf node.
 
 ![indexing-in-dbms](./indexing-in-dbms-2.jpg "indexing-in-dbms")
 
-\
 
 Types of Indexing 
 -----------------
@@ -119,11 +117,11 @@ indices which are sorted are known as ordered indices.
 **Multi-level indexing**
 
 When the index table is created for some other index table, then this
-type of indexing is called multi-level indexing. \
-\
+type of indexing is called multi-level indexing. 
+
  The types of indexing are shown in the Fig.3 below:
 
-![indexing-in-dbms](./indexing-in-dbms-3.jpg "indexing-in-dbms")\
+![indexing-in-dbms](./indexing-in-dbms-3.jpg "indexing-in-dbms")
 
 **Advantages of indexes:** 
 ----------------------

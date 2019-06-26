@@ -15,23 +15,23 @@ category:
 
 
 <div class="entry-content">
-<p class="blog-content">
+<p >
 <b>Continuous Integration (CI) </b> is an essential part of the software development lifecycle (SDLC) as it automates software build, testing, and deployment processes, and performance monitoring is a key part of CI.
 Implementing CI helps in:
 </p>
-<ul class="blog-content">
+<ul >
 <li>Monitor source code repositories.</li>
 <li>Run builds whenever code changes are detected.</li>
 <li>Run tests against compiled software (unit, acceptance, automated, performance, integration).</li>
 <li>Generate artifacts (binaries, documentation, installation packages).</li>
 </ul>
-<p class="blog-content">
+<p >
 Adding testing in CI process helps in reducing <b>performance </b>issues before and after adding (or) making changes in code builds of your software application.
 As main motto of CI process is to detect any integration related issues as early as possible.
 Now, let's consider <b>Jenkins </b>as Continuous Integration tool and JMeter tool for load testing.
 </p>
-<p class="blog-content"> <b>Download and Install Jenkins:</b></p>
-<ul class="blog-content">
+<p > <b>Download and Install Jenkins:</b></p>
+<ul >
 <li>Download latest release of Jenkins (download .war file).</li>
 <li>Now run Jenkins as java - jar jenkins.war (give path of jenkins.war file). You can find "Jenkins is fully up and running" message.</li>
 <center>
@@ -83,11 +83,11 @@ Now, let's consider <b>Jenkins </b>as Continuous Integration tool and JMeter too
 </div>
 </center>
 </ul>
-<p class="blog-content">
+<p >
 After completing the above setup we will see now how to setup JMeter with Jenkins for performing a load test.
 </p>
-<p class="blog-content"> <b>Download and Install Jenkins:</b>
-</p><ul class="blog-content">
+<p > <b>Download and Install Jenkins:</b>
+</p><ul >
 <li>We need <a href="https://wiki.jenkins.io/display/JENKINS/Performance+Plugin">Performance Plugin </a> (download the latest release) to get JMeter support.</li>
 <center>
 <div style="width:88%; margin-top:20px; margin-bottom:20px;padding:20px; box-shadow:0 0 10px rgba(0,0,0,0.1)">
@@ -111,8 +111,8 @@ After completing the above setup we will see now how to setup JMeter with Jenkin
 </center>
 <p></p>
 </ul>
-<p class="blog-content"> <b>JMeter test with Jenkins: </b>
-</p><ul class="blog-content">
+<p > <b>JMeter test with Jenkins: </b>
+</p><ul >
 <li>After setting up the entire above configuration, now we will start a JMeter test with Jenkins. We need Non-GUI mode to run test.</li>
 <li>Before starting the test go to <b>user.properties </b>and set <b>jmeter.save.saveservice.output_format=xml </b>or you send it through command line arguments as -Jjmeter.save.saveservice.output_format=xml </li>
 <li>Now go to your Jenkins dashboard and select <b>New Item </b>and name it accordingly. And select the <b>project type </b> from the below list and click <b>OK </b>.</li>
@@ -155,7 +155,7 @@ After completing the above setup we will see now how to setup JMeter with Jenkin
 </center>
 <p></p>
 </ul>
-<p class="blog-content">
+<p >
 Now you have automated the performance testing, you can spend more time on improving your software instead of struggling with identifying performance problems.
 </p>
 </div>
