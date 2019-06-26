@@ -15,7 +15,7 @@ category:
 
 <div class="entry-content">
 <hr>
-<center><img src="./lambdatest.svg" style="height: 90px;display: inline-block;padding: 10px;" alt="lambda-test best testing tool"></center>
+<img src="./lambdatest.svg" style="height: 90px;display: inline-block;padding: 10px;" alt="lambda-test best testing tool">
 <p >
 <b>LambdaTest</b> is a cloud based platform that lets you perform cross browser compatibility testing of your web application or websites. You can run automated selenium scripts on LambdaTest's adaptable cloud network, or can even perform live interactive testing on real browser environments.
 </p>
