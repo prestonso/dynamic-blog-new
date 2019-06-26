@@ -1,3 +1,4 @@
+// included in sidesection
 import React from "react"
 import {StaticQuery, graphql ,Link} from "gatsby"
 
@@ -16,7 +17,7 @@ const GetLatestBlog = (data) => {
   {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC } 
-      limit: 5
+      limit: 5  # number of latest blogs Change this thing to change numbere of displayed blogs
     ) {
       edges {
         node {

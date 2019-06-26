@@ -1,3 +1,4 @@
+/* Layout of the home page of the blogging website */
 import React from "react"
 import { graphql } from "gatsby"
 import { Row, Cell } from "griding"

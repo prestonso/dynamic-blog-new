@@ -12,6 +12,11 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
+
+
+/* This section decides what will be the basic template for all pages
+ * blog-list,blog-post,blog-author,blog-category, All pages have this layout  */
+
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
@@ -25,6 +30,7 @@ import Navi from './navbar2.js'
 import FooterInfo from './footer_info.js'
 const typography = new Typography(moragaTheme)
 typography.injectStyles()
+
 
 const Layout = ({ children }) => (
   <StaticQuery

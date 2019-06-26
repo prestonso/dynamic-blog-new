@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import 'font-awesome/css/font-awesome.css'
 //import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-import './social_style.css'
+import './social_style.css' 
+/* The css of this file can either be included in frugal.css or social_style.css */
 class SocialShare extends Component {
   componentDidMount(){
-      
+
   } 
   render() {
     return (
@@ -56,25 +57,25 @@ class SocialShare extends Component {
 
 export default SocialShare
 const linkedinsharer = () => {
-    let x = escape(typeof window !== 'undefined'?window.location.href:"")
-    let y = x.slice(8)
-    return `https://www.linkedin.com/shareArticle?mini=true&url=https%3A/${y}`
-  }
-  const fbsharer = () => {
-    return `https://www.facebook.com/sharer/sharer.php?u=${escape(typeof window !== 'undefined'?window.location.href:""
-    )}&t=${typeof document !== 'undefined'?document.title:""}`
-  }
-  const whatsappshare = () => {
-    let k = escape(typeof window !== 'undefined'?window.location.href:"")
-    return `https://api.whatsapp.com/send?text=${k}`
-  }
-  const gmailsharer = () => {
-    let x = escape(typeof window !== 'undefined'?window.location.href:"")
-    let y = typeof document !== 'undefined'?document.title:""
-    return `https://mail.google.com/mail/?view=cm&fs=1&su=${y}&tf=1&body=${x}`
-  }
-  const twittersharer = () => {
-    let x = escape(typeof window !== 'undefined'?window.location.href:"")
-    let y = x.slice(8)
-    return `https://twitter.com/home?status=https%3A/${y}`
-  }
+  let x = escape(typeof window !== 'undefined'?window.location.href:"")
+  let y = x.slice(8)
+  return `https://www.linkedin.com/shareArticle?mini=true&url=https%3A/${y}`
+}
+const fbsharer = () => {
+  return `https://www.facebook.com/sharer/sharer.php?u=${escape(typeof window !== 'undefined'?window.location.href:""
+  )}&t=${typeof document !== 'undefined'?document.title:""}`
+}
+const whatsappshare = () => {
+  let k = escape(typeof window !== 'undefined'?window.location.href:"")
+  return `https://api.whatsapp.com/send?text=${k}`
+}
+const gmailsharer = () => {
+  let x = escape(typeof window !== 'undefined'?window.location.href:"")
+  let y = typeof document !== 'undefined'?document.title:""
+  return `https://mail.google.com/mail/?view=cm&fs=1&su=${y}&tf=1&body=${x}`
+}
+const twittersharer = () => {
+  let x = escape(typeof window !== 'undefined'?window.location.href:"")
+  let y = x.slice(8)
+  return `https://twitter.com/home?status=https%3A/${y}`
+}

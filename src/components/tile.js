@@ -51,7 +51,7 @@
 // }
 
 // export default renderList
-
+//created for making tiles from blog-list page but no longer needed
 import React from "react"
 import kebabCase from "lodash.kebabcase"
 import { Link } from "gatsby"

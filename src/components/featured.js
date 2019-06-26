@@ -71,7 +71,7 @@ const BlogFeatured = () => {
           <article>
             <header className="entry-header">
               <div className="entry-thumbnail" style={{paddingBottom: '20px'}}>
-                <Link to={markdownRemark.fields.slug}>
+                <Link to={markdownRemark.fields.slug}>   {/*link to the blog page*/}
                   <img src={imageSource} alt={markdownRemark.frontmatter.title} style={{width:"100%",height:"100%"}} />
                 </Link>
               </div>
@@ -102,10 +102,8 @@ const BlogFeatured = () => {
           <article>
             <div className="row search-div">
               <div className="col-lg-12" style={{padding: '5px'}}>
-            {/* <script src="./google_custom_search.js">
-            
-            </script> */}
-          {/* <div><gcse:searchbox-only></gcse:searchbox-only></div> */}
+          
+                {/* The google custom search */}
           <form method = "get" title = "Search Form" action="https://cse.google.com/cse/publicurl">
  <div>
     <input type="text" id="q" name="q" title="Search this site" alt="Search Text" maxlength="256" />
@@ -136,6 +134,7 @@ const BlogFeatured = () => {
 
 export default BlogFeatured
 
+// used for querying the md files
 const query = graphql`
   query BlogFeatured {
     markdownRemark(frontmatter: { featured: { eq: true } }) {

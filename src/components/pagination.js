@@ -30,3 +30,4 @@ const Pagination = ({ numPages, currentPage, contextPage }) => {
 }
 
 export default Pagination
+/* numpages @12 number of pages to display */

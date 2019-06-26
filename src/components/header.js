@@ -1,3 +1,4 @@
+/* File no longer needed in our project but included to reolve some dependencies */
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"

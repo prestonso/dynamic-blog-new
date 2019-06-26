@@ -1,3 +1,4 @@
+// The currently used navbar used in favor of nav_bar.js
 import React from 'react'
 import { Link } from 'gatsby'
 
