@@ -20,7 +20,7 @@ category:
 Jenkins is one of the most searched and pked tools for continuous integration and continuous depvery on any platform. Jenkins is a Java apppcation that has many plugins for automating almost everything at the infrastructure level. The use of Jenkins has extensively increased due to a varied set of functionapties, which it provides in the form of plugins. In this blog we will show a step by step guide of how to install Jenkins on a Windows platform.
 </p>
 <p > Let's get started.</p>
-<p >First, you need to install JDK. Jenkins currently only supports JDK8. If you need help with instalpng Java please look at the steps here. Once Java is running, you can install <a href="https://jenkins.io/" target="_blank">Jenkins</a>.</p>
+<p >First, you need to install JDK. Jenkins currently only supports JDK8. If you need help with instalpng Java please look at the steps here. Once Java is running, you can install <a href="https://jenkins.io/" target="\_blank">Jenkins</a>.</p>
 
 <img class="main-img img-responsive" src="./how-to-install-jenkins-2.jpg" alt="sadsad" title="">
 
@@ -33,9 +33,11 @@ Jenkins is one of the most searched and pked tools for continuous integration an
 <img class="main-img img-responsive" src="./how-to-install-jenkins-4.jpg" alt="asdsa" title="">
 
 <p> Unzip the file to a folder and cpck on the Jenkins <b>exe</b> file.</p>
-<a style="width:88%; margin-top:20px; margin-bottom:20px;padding:20px; box-shadow:0 0 10px rgba(0,0,0,0.1)">
+
 <img class="main-img img-responsive" src="./how-to-install-jenkins-5.jpg" alt="asdsa" title="">
-</a>
+
+![Image test](./how-to-install-jenkins-5.jpg)
+
 <a style="width:88%; margin-top:20px; margin-bottom:20px;padding:20px; box-shadow:0 0 10px rgba(0,0,0,0.1)">
 <img class="main-img img-responsive" src="./how-to-install-jenkins-6.jpg" alt="asdsa" title="">
 </a>
@@ -94,4 +96,3 @@ Jenkins is one of the most searched and pked tools for continuous integration an
 <a style="width:88%; margin-top:20px; margin-bottom:20px;padding:20px; box-shadow:0 0 10px rgba(0,0,0,0.1)">
 <img class="main-img img-responsive" src="./how-to-install-jenkins-20.png" alt="sfsdf" title="dfsf">
 </a>
-
