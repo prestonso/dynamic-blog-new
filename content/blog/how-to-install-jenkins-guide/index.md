@@ -38,6 +38,8 @@ Jenkins is one of the most searched and pked tools for continuous integration an
 
 ![Image test](./how-to-install-jenkins-5.jpg)
 
+[![Linked image test](./how-to-install-jenkins-5.jpg)](/)
+
 <a style="width:88%; margin-top:20px; margin-bottom:20px;padding:20px; box-shadow:0 0 10px rgba(0,0,0,0.1)">
 <img class="main-img img-responsive" src="./how-to-install-jenkins-6.jpg" alt="asdsa" title="">
 </a>
