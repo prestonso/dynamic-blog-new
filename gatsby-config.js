@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = { 
   // pathPrefix: `/newBlog`,
   siteMetadata: {
     title: "Frugal Testing Blogs",
@@ -18,7 +18,8 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [`gatsby-remark-images`],
+        plugins: [`gatsby-remark-images`, "gatsby-remark-copy-linked-files"],
+        ignoreFileExtensions: []
       },
     },
     `gatsby-plugin-styled-components`,

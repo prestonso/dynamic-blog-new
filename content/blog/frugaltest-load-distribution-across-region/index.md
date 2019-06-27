@@ -1,10 +1,7 @@
 ---
-<<<<<<< HEAD
 title: 'FrugalTesting - Load Distribution Across Regions'
 date: 2018-08-13
 author: frugaltesting.com
-=======
->>>>>>> 6dda810212e0edce5b50648a508d621d082e8b37
 featured: false
 image: ./frugaltest-load-distribution-across-region.png
 description: "Find out how FrugalTest can assess your application's performance"

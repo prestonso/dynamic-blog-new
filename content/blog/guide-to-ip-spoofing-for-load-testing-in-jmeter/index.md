@@ -22,8 +22,7 @@ Go to your control panel -\> Network setting and choose a network to
 which your LG is connected and **Properties** and choose **Internet
 Protocol Version 4**-\> **Properties**
 
-![FrugalTesting blog on Jmeter ip spoofing for load testing
-](/network-properties.png)
+![FrugalTesting blog on Jmeter ip spoofing for load testing](/network-properties.png)
 
 And uncheck **Obtain an IP address automatically**and set the IP
 address, netmask, gateway and DNS servers manually (check the IP's are

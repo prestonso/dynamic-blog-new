@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
 title: 'How APM helps to find the bottlenecks in Application on Load Testing'
-=======
->>>>>>> 6dda810212e0edce5b50648a508d621d082e8b37
 date: 2017-08-11
 author: frugaltesting.com
 featured: false
