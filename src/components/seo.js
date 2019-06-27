@@ -5,6 +5,7 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
+/* All the meta tags, images which show up on sharing lnk are included through this file the React Helmet includes the component in head */
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"

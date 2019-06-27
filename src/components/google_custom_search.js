@@ -1,3 +1,4 @@
+// file no longer needed but can be used as a reference
 // conponentDidMount() {
 (function() {
   var cx = '007912272345005004811:q6lxkm2fyma';

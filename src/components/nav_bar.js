@@ -1,3 +1,5 @@
+/* deprecated in favor of navbar2.js
+ * may be used for reference */
 import React from 'react'
 import { Link } from 'gatsby'
 import Icon from './icon.svg'

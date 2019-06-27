@@ -1,3 +1,4 @@
+/* Css provided with the template should be changed very carefully */
 import styled, { css } from "styled-components"
 import { Cell } from "griding"
 import { Link } from "gatsby"

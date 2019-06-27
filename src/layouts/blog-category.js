@@ -1,3 +1,5 @@
+/* Layout of the blog-category page
+ * renderlist.js is also used */
 import React from "react"
 import kebabCase from "lodash.kebabcase"
 import { graphql } from "gatsby"

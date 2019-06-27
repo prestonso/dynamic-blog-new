@@ -1,3 +1,4 @@
+/* Any css file which is to be used globally can be importedsere */
 import React from "react"
 import { Redirect } from "@reach/router"
 

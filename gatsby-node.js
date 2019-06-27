@@ -1,3 +1,4 @@
+/* Things like Posts per page can be changed through this file */
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const path = require(`path`)
 const kebabCase = require(`lodash.kebabcase`)

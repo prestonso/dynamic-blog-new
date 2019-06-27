@@ -1,3 +1,5 @@
+/* Included in some files 
+ * is a styled container component */
 import styled from "styled-components"
 
 export const Container = styled.div`

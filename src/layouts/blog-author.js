@@ -1,3 +1,4 @@
+/* Not needed because no author is displayed */
 import React from "react"
 import kebabCase from "lodash.kebabcase"
 import { graphql } from "gatsby"

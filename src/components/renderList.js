@@ -51,7 +51,7 @@
 // }
 
 // export default renderList
-
+/* The layout of the cards of blogs at home page */
 import React from "react"
 import kebabCase from "lodash.kebabcase"
 import { Link } from "gatsby"

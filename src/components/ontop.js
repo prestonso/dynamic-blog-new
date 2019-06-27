@@ -1,3 +1,4 @@
+/* Coffee and laptop image on home page */
 import React from 'react'
 import { Link } from 'gatsby'
 

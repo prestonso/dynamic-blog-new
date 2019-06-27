@@ -51,6 +51,7 @@ const SuggestedBlog = (data) => {
     //console.log(data);
     //return <p></p>
     console.log(allMarkdownRemark.edges);
+    /* change the number '2' to the number of blogs you wish to suggest */
     let xx = chance.pickset(allMarkdownRemark.edges,2);
     return xx.map((d)=>{
          return (<div className="col-md-6 col-lg-4">

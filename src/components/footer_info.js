@@ -1,3 +1,4 @@
+// contains the footer information
 import React, { Component } from 'react'
 class FooterInfo extends Component {
     render() {
