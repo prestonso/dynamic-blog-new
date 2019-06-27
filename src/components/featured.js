@@ -108,7 +108,7 @@ const BlogFeatured = () => {
                 <div>
                   <input type="text" id="q" name="q" title="Search this site" alt="Search Text" maxlength="256" />
                   <input type="hidden" id="cx" name="cx" value="007912272345005004811:q6lxkm2fyma" />
-                  <input type="image" id="searchSubmit" name="submit" src="/components/search-icon.png" alt="Go" title="Submit Search Query" />
+                  <input type="image" id="searchSubmit" name="submit" src="https://image.flaticon.com/icons/svg/70/70376.svg" alt="Go" title="Submit Search Query" style={{height:"1.8em",paddingLeft:"5px",paddingTop:"10px"}}/>
                 </div>
               </form>
               {/* Google custom search ends here */}

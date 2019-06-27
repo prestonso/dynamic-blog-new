@@ -52,7 +52,7 @@ WDS.sampleResult.sampleEnd()<br>
 <li>The reader should be prudent in the number of threads they will create as each thread will have a single browser instance associated with it. </li>
 <li>As each browser consumes a significant amount of resources, so a limit should be placed on how many browsers the user should create.</li>
 </ol><p></p>
-<p><a href="https://www.frugaltesting.com">FrugalTesting</a> is one stop solution for all your testing challenges. <a href="../../../../2018/09/12/start-your-first-free-load-test"> Take your first free Load test here!</a></p>
-<p><a href="../../../../2018/06/25/introduction-to-apache-jmeter-guide">Read on to know more about Apache JMeter</a>
+<p><a href="https://www.frugaltesting.com">FrugalTesting</a> is one stop solution for all your testing challenges. <a href="../../../2018/09/12/start-your-first-free-load-test"> Take your first free Load test here!</a></p>
+<p><a href="../../../2018/06/25/introduction-to-apache-jmeter-guide">Read on to know more about Apache JMeter</a>
 </p>
 </div>

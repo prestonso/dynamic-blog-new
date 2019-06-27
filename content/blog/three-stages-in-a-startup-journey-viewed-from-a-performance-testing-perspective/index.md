@@ -25,7 +25,7 @@ Needless to say, quick response to the requests/clicks will lead to end user sat
 <li>Is the application capable of presenting the most current information to its users without a lag?</li>
 <li>Is the server responding within the maximum expected response time before an error is thrown?</li>
 </ul>
-<p >These can be easily addressed by a couple of load tests with proper load testing tools that can enhance your application's performance. <br><br></p><p><a href="../../../../2018/04/14/how-website-speed-impacts-businesses">How Website speed Impacts Businesses?</a></p><p></p>
+<p >These can be easily addressed by a couple of load tests with proper load testing tools that can enhance your application's performance. <br><br></p><p><a href="../../../2018/04/14/how-website-speed-impacts-businesses">How Website speed Impacts Businesses?</a></p><p></p>
 <h4 class="blog-subtitle">STAGE 2 - SCALABILITY</h4>
 <p >Now you as the business owner, want more profits and hence you would want more users on your website/mobile app. To attain this, the system must respond to larger volume of data,
 also have more capacity and hence<b> SCALABILITY </b>becomes the need of the hour.</p>
@@ -35,7 +35,7 @@ also have more capacity and hence<b> SCALABILITY </b>becomes the need of the hou
 <li>Can the application withstand unanticipated peak loads?</li>
 <li>Does it autoscale (upscale the infrastructure with increased load and vice versa) efficiently?</li>
 </ul>
-<p >This can be very well achieved with a series of scalability tests including <a href="/types-of-performance-testing">volume and spike tests.</a></p>
+<p >This can be very well achieved with a series of scalability tests including <a href="/blog/2018/04/26/types-of-performance-testing">volume and spike tests.</a></p>
 <h4 class="blog-subtitle">STAGE 3 - STABILITY</h4>
 <p >Well, you have established your business by scaling your application. But from long term perspective, is it stable enough to provide reliability,
 uptime and recoverability? Some common stability issues addressed by means of performance, stress and endurance tests include:</p>
@@ -48,5 +48,5 @@ uptime and recoverability? Some common stability issues addressed by means of pe
 <li>Can the system be patched or updated without taking it down?</li>
 </ul>
 <p >Performance Testing is highly essential for any online business throughout its journey from scratch to stability.</p>
-<p ><a href="https://www.frugaltesting.com/">FrugalTesting</a> is one stop solution for all your testing challenges. Take <a href="../../../../2018/09/12/start-your-first-free-load-test">your first free Load test here</a></p>
+<p ><a href="https://www.frugaltesting.com/">FrugalTesting</a> is one stop solution for all your testing challenges. Take <a href="../../../2018/09/12/start-your-first-free-load-test">your first free Load test here</a></p>
 </div>

@@ -17,7 +17,7 @@ category:
 
 <div class="entry-content">
 <p >
-As <a href="introduction-to-apache-jmeter-aquick-guide">Apache JMeter</a> is a pure JAVA based open source tool, we need a compatible Java version to run Apache JMeter. So let's start with how to install Java.
+As <a href="/blog/2018/06/25/introduction-to-apache-jmeter-guide">Apache JMeter</a> is a pure JAVA based open source tool, we need a compatible Java version to run Apache JMeter. So let's start with how to install Java.
 Check the below table which states which Java version has to be downloaded to make both JMeter and Java compatible.
 </p>
 <div class="table-responsive" style="width:100%; padding:20px 20px;">

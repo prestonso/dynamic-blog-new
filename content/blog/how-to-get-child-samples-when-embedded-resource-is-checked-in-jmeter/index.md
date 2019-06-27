@@ -17,7 +17,7 @@ category:
 
 <div class="entry-content">
 <p >
-Generally when we want to load test a website, we want to select the <b>'Retrieve Embedded / resources' </b> option with 'Parallel Download' as a real user scenario in <a href="../../../../2018/06/25/introduction-to-apache-jmeter-guide">Jmeter</a>.</p>
+Generally when we want to load test a website, we want to select the <b>'Retrieve Embedded / resources' </b> option with 'Parallel Download' as a real user scenario in <a href="../../../2018/06/25/introduction-to-apache-jmeter-guide">Jmeter</a>.</p>
 <p >But to visualize the embedded / resources like JS, CSS, images etc. in JMeter, we only have <b>'View Result Tree' </b> listener which we can't use for huge load tests.</p>
 <p >So, to get the various performance attributes of the child elements like sample times and response codes, save the jtl file in XML format as follows:
 </p>
@@ -44,5 +44,5 @@ Generally when we want to load test a website, we want to select the <b>'Retriev
 </div>
 </li>
 </ul>
-<p >Know <a href="../../../../2017/10/24/how-to-get-child-samples-when-embedded-resource-is-checked-in-jmeter">how huge load on website can impact your application's performance here!</a></p>
+<p >Know <a href="../../../2017/10/24/how-to-get-child-samples-when-embedded-resource-is-checked-in-jmeter">how huge load on website can impact your application's performance here!</a></p>
 </div>

@@ -73,5 +73,5 @@ Let's consider 4 machines which are setup on cloud with 8GB RAM configuration. O
 </li>
 <li style="margin-top:20px;"> After the completion of test take the jtl file and browse it in JMeter GUI to get Aggregate Report or any other Graphs.</li>
 </ol></ul>
-<p >To know more about apache JMeter,<a href="../../../../2018/06/25/introduction-to-apache-jmeter-guide"> read here</a>.</p>
+<p >To know more about apache JMeter,<a href="../../../2018/06/25/introduction-to-apache-jmeter-guide"> read here</a>.</p>
 </div>

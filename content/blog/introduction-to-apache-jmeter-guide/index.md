@@ -15,6 +15,7 @@ category:
 
 
 
+<img class="main-img img-responsive" src="./apache-jmeter.png" alt="quick guide to introduction to apache jmeter">
 <div class="entry-content">
 <p >
 As we all know Apache JMeter is a pure JAVA based open source tool to measure performance and to test
@@ -22,9 +23,9 @@ functional behaviour of the applications. It can be used as a load testing tool 
 It is used to simulate a heavy load on a server, group of servers, network or object to test its strength or to analyze overall performance under different load conditions.
 </p>
 <center>
-<div style="width:40%; margin-top:20px; margin-bottom:20px;padding:20px; box-shadow:0 0 10px rgba(0,0,0,0.1)">
+<!-- <div style="width:40%; margin-top:20px; margin-bottom:20px;padding:20px; box-shadow:0 0 10px rgba(0,0,0,0.1)"> -->
 <img class="main-img img-responsive" src="./apache-jmeter.png" alt="quick guide to introduction to apache jmeter">
-</div>
+<!-- </div> -->
 </center>
 <h4 class="blog-subtitle">Features of Apache JMeter</h4>
 <ol >
